@@ -1,0 +1,19 @@
+{
+  "theConfigMap": {
+    "hub_config_files": [
+      "hub_4444.json"
+    ],
+    "auto_start_hub": "1",
+    "default_role": "hub",
+    "auto_update_drivers": "0",
+    "auto_start_node": "0",
+    "hub_config": {},
+    "log_maximum_age_ms": 1.2096E9,
+    "reboot_after_sessions": "0",
+    "grid_extras_port": "3000",
+    "webdriver": {
+      "version": "3.7.1"
+    },
+    "node_config_files": []
+  }
+}

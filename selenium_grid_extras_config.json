@@ -12,7 +12,7 @@
     "reboot_after_sessions": "0",
     "grid_extras_port": "3000",
     "webdriver": {
-      "version": "3.7.1"
+      "version": "3.8.1"
     },
     "node_config_files": []
   }

@@ -10,7 +10,7 @@ RUN apt-get update -y \
     && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir -p /opt/selenium && wget --no-check-certificate -O /opt/selenium/SeleniumGridExtras.jar \
-    "https://github.com/groupon/Selenium-Grid-Extras/releases/download/v1.12.12/SeleniumGridExtras-1.12.17-SNAPSHOT-jar-with-dependencies.jar"
+    "https://github.com/groupon/Selenium-Grid-Extras/releases/download/v2.0.1/SeleniumGridExtras-2.0.1-SNAPSHOT-jar-with-dependencies.jar"
 
 RUN chmod +x /opt/selenium/SeleniumGridExtras.jar
 
